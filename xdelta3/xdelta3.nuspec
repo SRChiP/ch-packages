@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>xdelta3</id>
+    <title>xdelta3</title>
+    <version>3.0.8</version>
+    <authors>Joshua Macdonald</authors>
+    <owners>Ranuka Perera</owners>
+    <summary>xdelta3</summary>
+    <description>Xdelta is a tool and library for differential compression. Xdelta release version 3 supports VCDIFF encoding and decoding. Supports compressing 64 bit files on Windows, Linux, etc. </description>
+    <projectUrl>http://xdelta.org</projectUrl>
+    <tags>delta, compression, xdelta, xdelta1, xdelta2, xdelta3, vcdiff, differencing, differential, lzma, diff, gzip, bzip2, zlib, bsdiff</tags>
+    <copyright>Copyright (C) 2007, 2008, 2009, 2010, 2011, 2012, 2013 Joshua MacDonald</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/old-licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>https://raw.github.com/SRChiP/ch-packages/master/xdelta3/xdelta3.png</iconUrl>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
